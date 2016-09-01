@@ -1,7 +1,7 @@
 # SecurityTools
 Tools for security using Python3.5
 
-## Scripts ##
+## Tools ##
 
 This is the list of the tools:
 
