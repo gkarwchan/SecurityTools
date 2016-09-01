@@ -8,7 +8,7 @@ remoteServer = input("Enter a remote host to scan (example google.com): ")
 remoteServerIP = socket.gethostbyname(remoteServer)
 
 print ("IP4 address for the server is:" , remoteServerIP)
-socket.setdefaulttimeout(5)
+socket.setdefaulttimeout(0.1)
 try:
     for port in range(1, 1025):
         print("testing port {}: \t".format(port), end="", flush=True)
